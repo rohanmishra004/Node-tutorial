@@ -1,0 +1,48 @@
+
+20220329	20:10:59 	b6a7c4c6-a47a-4906-824c-6eda30ecb5ef 	GET	undefined	/index
+
+20220329	20:10:59 	7ac23ac6-f994-4b6c-bf5f-6a09c3fb76e8 	GET	undefined	/css/style.css
+
+20220329	20:14:39 	d50db075-44b8-4b25-b38e-86c15d5c4070 	GET	undefined	/
+
+20220329	20:14:40 	3eb26fc5-18ca-4f12-aba9-1b21ba494ab9 	GET	undefined	/css/style.css
+
+20220329	21:00:25 	780dcde1-247f-4efb-896b-dd8d1aef31b1 	GET	https://www.google.co.in	/
+
+20220329	21:04:22 	f8b701f3-0789-4e92-9385-da94c2679e0d 	GET	undefined	/
+
+20220329	21:04:23 	ad2b3843-1c84-4ab5-9c0f-e8b05c6e739e 	GET	undefined	/css/style.css
+
+20220329	21:11:41 	db982755-22c0-46b5-8484-6a04494055b5 	GET	undefined	/
+
+20220329	21:11:41 	e686f1e0-0377-4d85-bbcf-ed4485912d09 	GET	undefined	/css/style.css
+
+20220329	21:13:01 	c3b18538-d229-4248-816a-3f78ed077c3c 	GET	undefined	/
+
+20220329	21:13:01 	c7a6032d-92d4-4939-b6dc-316f61fd38d2 	GET	undefined	/css/style.css
+
+20220329	21:13:22 	d13ecb01-8b99-4b52-b0df-d43ce808df8e 	GET	undefined	/
+
+20220329	21:13:22 	ae42e855-e0cb-4a47-b449-2f0ba59b95b1 	GET	undefined	/css/style.css
+
+20220329	21:13:43 	54de49b8-13ec-4d5b-b6b0-bab19aa2918a 	GET	undefined	/
+
+20220329	21:13:43 	74de1380-02c4-4686-8ab4-6060ffea2085 	GET	undefined	/css/style.css
+
+20220329	21:14:20 	fe8636b8-137f-4c3d-8903-b6cbfe3b131f 	GET	undefined	/
+
+20220329	21:14:21 	eeb504bf-0404-47a1-800f-8f4e1638427e 	GET	undefined	/css/style.css
+
+20220329	21:14:24 	f562f036-7b27-4a29-a075-dae585882e99 	GET	undefined	/
+
+20220329	21:14:25 	aea898a3-a065-4511-accd-b03bfa0e8542 	GET	undefined	/css/style.css
+
+20220329	22:22:27 	f7ec8604-d571-4bb2-8ed9-a13d508b250d 	GET	undefined	/
+
+20220329	22:22:28 	718c6be0-7256-4416-ab98-450db734881a 	GET	undefined	/css/style.css
+
+20220329	22:23:09 	d2a8f889-2b87-4061-9b65-97cc95ae57e2 	GET	undefined	/
+
+20220329	22:23:53 	ddda729b-a44a-4c43-ba35-f380285cc017 	GET	undefined	/
+
+20220329	22:23:54 	33b051d2-773e-473a-aa32-9f520677acf4 	GET	undefined	/css/style.css
