@@ -3,7 +3,7 @@ const app = express()
 const morgan  = require('morgan')
 const mongoose = require('mongoose')
 const Blog = require('./models/blog');
-
+const blog_routes = require('./routes/blogRoutes')
 
 /**
 
@@ -95,60 +95,9 @@ app.get('/about',(req,res)=>{
     res.render('about', {title:'About'})
 })
 
+//blog-Routes :
 
-//Blog Routes
-app.get('/blogs',(req,res)=>{
-    Blog.find().sort({createdAt:-1}) //sorting in reverse order
-    .then((result)=>{
-        res.render('index',{title:'All Blogs', blogs: result})
-    })
-    .catch(err=>{
-        console.log(err)
-    })
-})
-
-
-//post handler
-app.post('/blogs',(req,res)=>{
-    //we have define urlencoded in the middleware so we can access the data coming from url data
-    // console.log(req.body)
-    const blog = new Blog(req.body); //we create a new instance of blog
-    
-    blog.save()
-    .then((result)=>{
-        res.redirect('/blogs')
-    }).catch(err=>{
-        console.log(err)
-    })
-})
-
-//Create Blog request
-app.get('/blogs/create', (req, res) => {
-    res.render('create', { title: 'Create a new blog' });
-  });
-
-//To handle specific blogs for delete or getting one blog we can use - Route parameters - these are variables of the route that may change value
-app.get('/blogs/:id',(req,res)=>{
-    const id = req.params.id;
-    Blog.findById(id)
-    .then((result)=>{
-        res.render('details',{blog:result, title: 'Blog Details'})
-    })
-    .catch(err=>{console.log(err)})
-})
-
-//Delete Blog Request -
-app.delete('/blogs/:id',(req,res)=>{
-    const id = req.params.id;
-    Blog.findByIdAndDelete(id)
-    .then((result)=>{
-        res.json({ redirect: '/blogs'})
-    })
-    .catch(err=>{
-        console.log(err)
-    })
-})
-
+app.use('/blogs',blog_routes) //all blog routes will automatically will have /blog attached to it
 
 //MIDDLE-WARE -404 Error
 app.use((req,res)=>{
